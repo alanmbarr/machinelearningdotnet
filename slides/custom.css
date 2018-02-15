@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+div.black {
+    color: black;
+}
+
+div.white {
+	color: white;
+}
+
+.reveal section img
+{
+  border:0px none white;
+  box-shadow:0 0 0px rgba(0, 0, 0, 1) !important;
+}
+
+.reveal h3 {
+  text-transform:none;
+  font-weight:bold;
+}
+
+.shadow {
+    text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+}
+
+.title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: transparent;
+    filter: blur(0.3px);
+    animation: 2s ease-in-out infinite alternate pulse;
+  }
+
+@keyframes pulse {
+    0% {
+      text-shadow: rgba(255, 255, 255, 0.9) -0.06em -0.06em, rgba(67, 144, 126, 0.9) 0 0;
+    }
+    33% {
+      text-shadow: rgba(204, 255, 252, 0.9) -0.15em -0.15em, rgba(157, 94, 186, 0.9) 0 0;
+    }
+    66% {
+      text-shadow: rgba(229, 255, 254, 0.9) -0.06em -0.06em, rgba(157, 94, 186, 0.9) 0 0;
+    }
+    100% {
+      text-shadow: rgba(179, 255, 251, 0.9) -0.15em -0.15em, rgba(202, 69, 215, 0.9) 0 0;
+    }
+  }
