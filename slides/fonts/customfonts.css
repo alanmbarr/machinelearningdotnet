@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Streamster';
+    src: url('Streamster.woff') format('woff')
+         url('Streamster.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFAlienEncounters';
+    src: url('SFAlienEncounters.woff') format('woff'),
+         url('SFAlienEncounters.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

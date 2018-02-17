@@ -10,7 +10,7 @@
 </section>
 <table>
 <tr><td class="noborder" style="width:50%;"><td class="noborder" style="width:50%;">
-# <div class="title">Machine Learning .NET</div>
+# <div class="title streamster">Machine Learning .NET</div>
 ## <div class="shadow" style="color:#176AE8;">Alan Barr</div>
 </td></tr>
 </table>
@@ -19,4 +19,10 @@
 
 ---
 
-<iframe width="1080" height="768" src="https://www.youtube.com/embed/8tq1C8spV_g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+- data-background : #000000
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/8tq1C8spV_g?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+# Something

@@ -57,9 +57,16 @@ let copyPics() =
     with
     | exn -> traceImportant <| sprintf "Could not copy picture: %s" exn.Message
 
+let copyFonts() =
+    try
+      CopyDir (outDir </> "fonts") (slidesDir </> "fonts") (fun f -> true)
+    with
+    | exn -> traceImportant <| sprintf "Could not copy fonts: %s" exn.Message
+
 let generateFor (file:FileInfo) = 
     try
         copyPics()
+        copyFonts()
         let rec tryGenerate trials =
             try
                 FsReveal.GenerateFromFile(file.FullName, outDir, fsiEvaluator = fsiEvaluator)
