@@ -74,17 +74,67 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 ---
 
+- data-background : #ff71ce
+
 ### Regression : values are continuous and have a constant slope
 ![uhhh](https://imgs.xkcd.com/comics/extrapolating.png)
 
 ---
 
+- data-background : #fffb96
+
 ### Clustering
 - Identify a relationship between things without predefined labels
 - Outlier/Anomaly detection
-- insert image here
+![Apparently there are no funny cluster images](images/cluster.png)
 
 ---
 
+- data-background : #b967ff
+
 ### Recommendation
 ![You might also like](images/grocery.jpg)
+
+
+**************************************************************************
+
+- data-background : #05ffa1
+
+## Key Terms
+
+* Features
+* Model
+* Supervised Learning, Unsupervised, Semi-supervised
+* Model Validation - Cross Validation, Root Mean Squared Error, Receiver Operating Characteristic
+* Over/Under fitting 
+
+---
+
+- data-background : #fffb96
+
+<div id="dsprocess">
+<img src="images/dsprocess.png">
+</div>
+
+---
+
+- data-background : #b967ff
+
+# Tools
+
+- Any language, many tutorial often use R or Python
+- Data Frame library to ease data exploration
+- In .Net: Accord Framework
+
+---
+
+- data-background : #01cdfe
+
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>

@@ -5,6 +5,17 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+div#dsprocess img {
+  height: 700px;
+  width: 700px; 
+  margin-top: -50px;
+}
+
+div.demo {
+  white-space: nowrap;
+  margin-left: -100px;
+}
+
 div.streamster {
   font-family: 'streamsterregular', Arial, sans-serif; 
 }
