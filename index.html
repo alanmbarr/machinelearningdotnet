@@ -53,18 +53,111 @@
 <section data-background-video="https://s3.amazonaws.com/www.alanmbarr.com/aibo.mp4" data-background-color="#000000" data-background-video-loop>
 </section>
 <table>
-<tr><td class="noborder" style="width:50%;"><td class="noborder" style="width:50%;">
-<h1><div class="title streamster">Machine Learning .NET</div></h1>
-<h2><div class="shadow alien" style="color:#176AE8;">Alan Barr</div></h2>
+<tr><td class="noborder" style="width:75%;">
+<h1><div id="fancy" class="title streamster">Machine Learning .NET</div></h1>
+</td><td class="noborder" style="width:25%;">
+<br>
+<br>
+<br>
+<br>
+<br>
+</td></tr><tr><td>
+<h2><div class="shadow alien" style="color:#b967ff;">Alan Barr</div></h2>
 </td></tr>
 </table>
 </section>
 <section >
-<section data-background="#000000">
-<iframe width="800" height="600" src="https://www.youtube.com/embed/8tq1C8spV_g?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<section data-background="#01cdfe">
+<h1>What is Machine Learning?</h1>
+<script>
+let stopAnimating = function(event){
+    let title = $("#fancy")
+    if(event.indexh === 1 && event.indexv === 1){
+        title.removeClass("title");
+    }
+    if(event.indexh === 0 && event.indexv === 0 && !(title.hasClass("title"))){
+        title.addClass("title");
+    }
+}
+$(function(){
+Reveal.addEventListener('slidechanged', stopAnimating);
+});
+</script>
+</section>
+<section data-background="#ff71ce">
+<h1 style="color:white;">Isn't Machine Learning just statistics?</h1>
+</section>
+<section data-background="#fffb96">
+<h1>Warning... Clean Data required</h1>
+<ul>
+<li>Garbage In Garbage Out</li>
+<li>Context is King</li>
+<li>Big data is not necessarily helpful</li>
+<li>Overfitting - prediction is suspiciously good</li>
+</ul>
+</section>
+<section data-background="#01cdfe">
+<h2>Focused on prediction, not just analysis</h2>
+<ul>
+<li>Classification : Who's a good dog (Breed)?</li>
+<li>
+What two or multiple categories does an item fit into
+<img src="images/kaggle_border_collies.png" alt="Kaggle Border Collies" />
+</li>
+</ul>
+</section>
+<section data-background="#ff71ce">
+<h3>Regression : values are continuous and have a constant slope</h3>
+<p><img src="https://imgs.xkcd.com/comics/extrapolating.png" alt="uhhh" /></p>
+</section>
+<section data-background="#fffb96">
+<h3>Clustering</h3>
+<ul>
+<li>Identify a relationship between things without predefined labels</li>
+<li>
+Outlier/Anomaly detection
+<img src="images/cluster.png" alt="Apparently there are no funny cluster images" />
+</li>
+</ul>
+</section>
+<section data-background="#b967ff">
+<h3>Recommendation</h3>
+<p><img src="images/grocery.jpg" alt="You might also like" /></p>
+</section>
 </section>
 <section >
-<h1>Something</h1>
+<section data-background="#05ffa1">
+<h2>Key Terms</h2>
+<ul>
+<li>Features</li>
+<li>Model</li>
+<li>Supervised Learning, Unsupervised, Semi-supervised</li>
+<li>Model Validation - Cross Validation, Root Mean Squared Error, Receiver Operating Characteristic</li>
+<li>Over/Under fitting</li>
+</ul>
+</section>
+<section data-background="#fffb96">
+<div id="dsprocess">
+<img src="images/dsprocess.png">
+</div>
+</section>
+<section data-background="#b967ff">
+<h1>Tools</h1>
+<ul>
+<li>Any language, many tutorial often use R or Python</li>
+<li>Data Frame library to ease data exploration</li>
+<li>In .Net: Accord Framework</li>
+</ul>
+</section>
+<section data-background="#01cdfe">
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
+<h1><div class="title alien demo">DEMO DEMO DEMO DEMO</div></h1>
 </section>
 </section>
 
