@@ -66,7 +66,7 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 - data-background : #01cdfe
 
-## Focused on prediction, not just analysis
+### Classification 
 
 - Classification : Who's a good dog (Breed)?
 - What two or multiple categories does an item fit into
@@ -105,8 +105,17 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 * Features
 * Model
 * Supervised Learning, Unsupervised, Semi-supervised
-* Model Validation - Cross Validation, Root Mean Squared Error, Receiver Operating Characteristic
+* Model Validation 
 * Over/Under fitting 
+
+---
+
+## Validating Models and Overfitting
+
+* A model learns from examples
+* We want our model to be robust enough to give us a prediction from unseen data
+* We can use various tools to verify how well our model is performing
+    - Cross Validation, Root Mean Squared Error, Receiver Operating Characteristic
 
 ---
 
@@ -115,6 +124,12 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 <div id="dsprocess">
 <img src="images/dsprocess.png">
 </div>
+
+---
+
+- data-background : #fffb96
+
+<div id="cheatsheet"><img src="images/ml_map.png"></div>
 
 ---
 
