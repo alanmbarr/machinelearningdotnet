@@ -11,6 +11,10 @@ div#dsprocess img {
   margin-top: -50px;
 }
 
+div#cheatsheet img {
+  margin-top: -100px;
+}
+
 div.demo {
   white-space: nowrap;
   margin-left: -100px;
