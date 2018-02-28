@@ -110,6 +110,8 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 ---
 
+- data-background : #ff71ce
+
 ## Validating Models and Overfitting
 
 * A model learns from examples
@@ -127,7 +129,7 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 ---
 
-- data-background : #fffb96
+- data-background : #01cdfe
 
 <div id="cheatsheet"><img src="images/ml_map.png"></div>
 
@@ -137,7 +139,7 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 # Tools
 
-- Any language, many tutorial often use R or Python
+- Any language, many tutorials often use R or Python
 - Data Frame library to ease data exploration
 - In .Net: Accord Framework
 
