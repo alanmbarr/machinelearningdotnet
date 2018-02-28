@@ -35,9 +35,13 @@ let stopAnimating = function(event){
     let title = $("#fancy")
     if(event.indexh === 1 && event.indexv === 1){
         title.removeClass("title");
+        $(".fin").removeClass("title");
     }
     if(event.indexh === 0 && event.indexv === 0 && !(title.hasClass("title"))){
         title.addClass("title");
+    }
+    if(event.indexh === 2 && event.indexv === 4 ){
+        $(".fin").addClass("title");
     }
 }
 $(function(){
@@ -147,11 +151,11 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 - data-background : #01cdfe
 
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
-# <div class="title alien demo">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
+# <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
