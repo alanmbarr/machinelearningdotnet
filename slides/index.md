@@ -133,9 +133,13 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 ---
 
-- data-background : #01cdfe
+- data-background : #fffb96 
+- data-background-image : images/ml_map.png
+- data-background-size : 80% 
+- data-background-repeat : no-repeat
+- data-background-position : center
 
-<div id="cheatsheet"><img src="images/ml_map.png"></div>
+<!-- <div id="cheatsheet"><img src="images/ml_map.png"></div> -->
 
 ---
 
@@ -149,7 +153,7 @@ Reveal.addEventListener('slidechanged', stopAnimating);
 
 ---
 
-- data-background : #01cdfe
+- data-background-image : images/windows.jpg
 
 # <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
 # <div class="title alien demo fin">DEMO DEMO DEMO DEMO</div>
