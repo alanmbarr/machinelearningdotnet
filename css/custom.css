@@ -5,6 +5,25 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.reveal .progress span {
+  background: #ff1493;
+}
+
+.reveal .controls .navigate-left.enabled {
+  border-right-color: #00FF48; 
+}
+
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: #00FF48; 
+}
+
+.reveal .controls .navigate-down.enabled {
+  border-top-color: #00FF48; 
+}
+.reveal .controls .navigate-right.enabled {
+  border-left-color: #00FF48; 
+}
+
 div#dsprocess img {
   height: 700px;
   width: 700px; 
